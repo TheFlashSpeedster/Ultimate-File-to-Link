@@ -1,3 +1,9 @@
+# Ultimate File to Link Bot
+
+• 4GB Files Supported (⚠️ BUG) <br>
+• Convert File to Download Link + Streaming Page <br>
+• Works in Channel with Buttons
+
 ![GitHub contributors](https://img.shields.io/github/contributors/adarsh-goel/filestreambot-pro?style=flat&color=green)
 ![GitHub repo size](https://img.shields.io/github/repo-size/adarsh-goel/filestreambot-pro?color=green)
 ![GitHub](https://img.shields.io/github/license/adarsh-goel/filestreambot-pro?color=green)
