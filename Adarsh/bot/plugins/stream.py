@@ -154,14 +154,12 @@ async def channel_receive_handler(bot, broadcast):
             quote=True,
             parse_mode="Markdown"
         )
-        await bot.edit_message_reply_markup(
-            chat_id=broadcast.chat.id,
-            id=broadcast.id,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [InlineKeyboardButton("🖥STREAM ", url=stream_link),
-                     InlineKeyboardButton('Dᴏᴡɴʟᴏᴀᴅ📥', url=online_link)] 
-                ]
+        elif caption_position == "bottom":
+             await bot.edit_message_caption(
+                 chat_id = message.chat.id, 
+                 message_id = message.message_id,
+                 caption = file_caption + "\n" + caption_text,
+                 parse_mode = "markdown"
             )
         )
     except FloodWait as w:
